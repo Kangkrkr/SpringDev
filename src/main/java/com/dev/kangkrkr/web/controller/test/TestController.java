@@ -27,6 +27,7 @@ public class TestController {
 						  .build();
 		
 		Test saved = testRedisReposytory.save(toSave);
+		
 		return saved;
 	}
 	
