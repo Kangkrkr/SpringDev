@@ -31,18 +31,6 @@ public class TestController {
 	@Value("${gcp.bucket.name}")
 	private String bucketName;
 	
-	@GetMapping("/save/{id}")
-	public Test saveTest(@PathVariable("id") int id) {
-		Test toSave = Test.builder()
-						  .id(id)
-						  .value(LocalDateTime.now().toString())
-						  .build();
-		
-		Test saved = testRedisReposytory.save(toSave);
-		
-		return saved;
-	}
-	
 	@GetMapping("/storage/{filename}")
 	public ResponseEntity getTextFromFile(@PathVariable("filename") String filename) {
 		Blob blob = storage.get(bucketName, filename);
@@ -57,5 +45,17 @@ public class TestController {
 		blob.downloadTo(downloadPath.resolve(filename));
 		
 		return ResponseEntity.ok(blob.toString());
+	}
+	
+	@GetMapping("/save/{id}")
+	public Test saveTest(@PathVariable("id") int id) {
+		Test toSave = Test.builder()
+						  .id(id)
+						  .value(LocalDateTime.now().toString())
+						  .build();
+		
+		Test saved = testRedisReposytory.save(toSave);
+		
+		return saved;
 	}
 }
