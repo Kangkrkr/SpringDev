@@ -14,8 +14,9 @@ spring:
   profiles:
     active: local
   cloud:    gcp:
-      credentials:        location: classpath:springdev-c1e41e7f0c54.json      storage:        credentials:          location: classpath:springdev-f50db4f4d3de.json
-
+      credentials:        location: https://storage.cloud.google.com/kangkrkr_img_bucket1/springdev-c1e41e7f0c54.json
+      storage:        credentials:
+          location: https://storage.cloud.google.com/kangkrkr_img_bucket1/springdev-f50db4f4d3de.json
 gcp:
   bucket:
     name: kangkrkr_img_bucket1
