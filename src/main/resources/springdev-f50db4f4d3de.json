@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "springdev",
+  "private_key_id": "f50db4f4d3deaf8a319bf530f97009c8002b3879",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCocLYMC+CZ1Pe+\nN9QUHoeBJI9KYx7UPBLovCtDm4GtqCPizQNdOmv+HejPnVK243OvnznmShbuGql8\nMRdD1pYAijyH0oKYZ7aIft6RzC4ucqdPyd4Gok+vtD8MYvMI4tILtGHR/XCGmQ8u\nfnBvhMyGyfBKr0GwLKgB+xd8lJK7ySNUKLcR/3f6FO0RZCEuK8mBWHxyB/dI/tf7\nsudoHPJJEHvh0nzcv1LaSeS7u2pj01ZAsa3gKIG/X95Qpal94Y71CdwImUS6AQYz\nVA0GI6WJ52NnqfE7TohsI9nZVYQHUExd/N8DM7EDXwn/9SqqurkUyxBE8Xy3SRVc\nexp9JIWrAgMBAAECggEAAx9ZGXlm5EFdTlb1ttOK8bzP/BWywGI4QxJxBm5C4kJX\n5i5roVKTtJYGPiaUrGXrdKRuUwHiX9KytLtVIC+zRtNJMqNeXw8dIK6iSSks68OB\nO2Nq08w2CCzpNkuR85FUZpZBqtqmxc1RAoIUMitBmumcwLsCFrnAwONQQ3q67oGJ\n4XXjXZXHwuLbWxqWES/KM5f/dAXcq/DNHIJmftJqaQjaXppZdF7/ZqJrAos6ASru\no7rpVvTrARY8quLtM1mYnKqJNU23B8NPrpFQ6243Ezz0N15vtvOFecfQYc2iHj7f\nLHotCSas6NrK0MFQza9aLvIxlbtzIo4tgxKV9qMGcQKBgQDU9AWcOD+NNyGmCo7J\ntX+cIyls6+mA9MVLErf9VPeUqGadLYSvqOLxO4H+b+OwF2+UOOwzaVwiRu0LAXIG\nLWHuiWGnyZDyKo1Sj4oRVptanqaBVaTN/rmrN6VpkrBtS++TsfzQjv+Jik14NJAw\n06FVxcjToIwfsifn6p66hw/BhwKBgQDKfTfcurJJrb+Hs8aILABEEXCtjwUTkR3X\ndme26rrnXcNsGCB2JBQnHi/V5EJ4VJ78tGvcf+AMWkPRDyKTJdvt9OXCrd0IB3Fi\nO/OsTE1fQ1/nSzK0nwf3ky+kbXXzf0c6zJaEyR0yS5HBjyXmbjjWEGqARm5zxs7X\nrR9aOZVzvQKBgH+zJXocsN955A+x3RZQZIm4/Cp4/bl7DqSKQRMFVMIsifxPQ3Yj\nDJQkXzu41QzPwPVdfScHU1yqs5MZ9sqFhGiKsajwUp8lrUGJGf5ztQ2OfcKpHP76\ndVSbNfItKOch1jT3UueuGMbdzL78pkrhXaoVxOxDJkQLjaqhIzYvr98ZAoGAY3zy\nnXj9cEX1/O7PdMhpuQf4nM3QaLS8PMjoXG8oNdVT1yBjkqhXXoDub+Ee55BsLS1Y\ncZZCts8C0wzkp/fJ/zh8SxKxrug5RVK/fsBeo5eu3y2LVENu3q1qkxdVBLZcgP9U\nVRmbRsLqcneq33T4Z/TY3v279xaPOljNNr9kNuECgYBud9xcJX0l745fvHVWVamM\nFoorXtEbPP7F0NnkohE1GN4pPPYY1vgmwMk7Ydnpwy62FmOqGyE4C0WAQoJ2JY10\njXotXUvVoYLuzByjqjuGXky0sCWhG6GhsYPMlFq1+tKgQO4ABdKaIBoNq8Vjxf8V\n24ljl3tivlcUjzveGQDo1g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "java-gcp-bucket-access@springdev.iam.gserviceaccount.com",
+  "client_id": "112914402894324972515",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/java-gcp-bucket-access%40springdev.iam.gserviceaccount.com"
+}
